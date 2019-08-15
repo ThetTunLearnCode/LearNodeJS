@@ -3,13 +3,23 @@
 	&__mobile-margin-b {
 		margin-bottom: 1rem;
 	}
-	@mixin atMedium {
-		&--gutters {
-			padding-right: -65px;
+
+	&--gutters {
+			margin-right: -65px;
 		}
+		&--gutters-learge {
+			margin-right: -100px;
+		}
+
 		&--gutters > div {
 			padding-right: 65px;
 		}
+
+		&--gutters-learge > div {
+			padding-right: 100px;
+		}
+
+	@mixin atMedium {
 		&__medium-4 {
 			float: left;
 			width: 33.33%;
@@ -17,6 +27,10 @@
 		&__medium-8 {
 			float: left;
 			width: 66.66%;
+		}
+		&__medium-6 {
+			float: left;
+			width: 50%;
 		}
 	}
 }
