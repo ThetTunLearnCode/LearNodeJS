@@ -1,0 +1,15 @@
+.wapper {
+	overflow: hidden;
+	padding-left: 18px;
+	padding-right: 18px;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	&--medium {
+		max-width: 976px;
+	}
+	.wapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
