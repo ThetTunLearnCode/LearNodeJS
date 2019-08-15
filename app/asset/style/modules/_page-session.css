@@ -7,4 +7,17 @@
 		background: $mainBlue;
 		color: #FFF;
 	}
+	&--no-b-padding {
+		padding-bottom: 0px;
+		@mixin atMedium {
+			padding-bottom: 4.5rem;
+		}
+	}
+	&--testimonial {
+		background-color: #e0e6ef;
+		@mixin atMedium {
+			background: url('/asset/images/bg-image.jpg') top center no-repeat;
+			background-size: cover;
+		}
+	}
 }
